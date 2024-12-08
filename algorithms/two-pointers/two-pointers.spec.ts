@@ -1,7 +1,7 @@
 import { twoPointers } from "./two-pointers"
 
 describe('Two Pointers', () => {
-  describe('when argument are valid', () => {
+  describe('when the argument is valid', () => {
     let consoleSpy: jest.SpyInstance<void, [message?: any, ...optionalParams: any[]], any>
 
     beforeAll(() => {
