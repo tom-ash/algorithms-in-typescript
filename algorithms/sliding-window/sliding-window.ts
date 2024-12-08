@@ -1,3 +1,7 @@
+/**
+ * Sliding Window
+ */
+
 export function slidingWindow(numbers: number[], windowSize: number): any {
   if (numbers.length < windowSize) {
     throw new Error(

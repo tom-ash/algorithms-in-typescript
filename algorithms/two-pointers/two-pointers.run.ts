@@ -1,6 +1,3 @@
-// import { twoPointer } from ".";
-// import { twoPointer } from "./two-pointers";
-
 import { twoPointers } from "./two-pointers";
 
 const args = process.argv.slice(2);
