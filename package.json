@@ -1,0 +1,31 @@
+{
+  "name": "algorithms-in-typescript",
+  "version": "1.0.0",
+  "description": "Algorithms in TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "tsx": "tsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tom-ash/algorithms-in-typescript.git"
+  },
+  "keywords": [
+    "algorithms",
+    "data",
+    "structures",
+    "typescript"
+  ],
+  "author": "Tomasz Bogusz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tom-ash/algorithms-in-typescript/issues"
+  },
+  "homepage": "https://github.com/tom-ash/algorithms-in-typescript#readme",
+  "devDependencies": {
+    "@types/node": "^22.10.1"
+  },
+  "dependencies": {
+    "tsx": "^4.19.2"
+  }
+}
