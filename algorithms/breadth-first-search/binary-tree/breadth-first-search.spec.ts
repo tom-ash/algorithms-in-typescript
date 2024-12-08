@@ -1,5 +1,5 @@
-import { BinaryTreeNode } from "../../../../data-structures/binary-tree";
-import { depthFirstSearchBinaryTreePreOrderTraversal } from "./pre-order-traversal";
+import { BinaryTreeNode } from "../../../data-structures/binary-tree";
+import { breadthFirstSearchBinaryTree } from "./breadth-first-search";
 
 describe("Depth-first Search > Binary Tree > Pre-order Traversal", () => {
   describe("when the argument is valid", () => {
@@ -35,18 +35,18 @@ describe("Depth-first Search > Binary Tree > Pre-order Traversal", () => {
     });
 
     it("runs the algorithm", () => {
-      depthFirstSearchBinaryTreePreOrderTraversal(tree);
+      breadthFirstSearchBinaryTree(tree);
 
       expect(consoleSpy.mock.calls).toEqual([
-        ["Processing node: 1."],
-        ["Traversing left from node: 1."],
-        ["Processing node: 2."],
-        ["Traversing left from node: 2."],
-        ["Processing node: 4."],
-        ["Traversing right from node: 2."],
-        ["Processing node: 5."],
-        ["Traversing right from node: 1."],
-        ["Processing node: 3."],
+        ["Getting from queue and processing node: 1."],
+        ["Enqueuing left child of node: 1."],
+        ["Enqueuing right child of node: 1."],
+        ["Getting from queue and processing node: 2."],
+        ["Enqueuing left child of node: 2."],
+        ["Enqueuing right child of node: 2."],
+        ["Getting from queue and processing node: 3."],
+        ["Getting from queue and processing node: 4."],
+        ["Getting from queue and processing node: 5."],
       ]);
     });
   });

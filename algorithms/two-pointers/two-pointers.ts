@@ -7,9 +7,8 @@ export const twoPointers = (numbers: number[]): any => {
   let rightPointer: number = numbers.length - 1;
 
   while (leftPointer < rightPointer) {
-
     // An actual problem condition would be here.
-    if (leftPointer + rightPointer % 2 === 0) {
+    if (leftPointer + (rightPointer % 2) === 0) {
       console.log(
         `Moving left pointer from ${leftPointer} to ${leftPointer + 1}`,
       );
