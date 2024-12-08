@@ -2,9 +2,9 @@
   "name": "algorithms-in-typescript",
   "version": "1.0.0",
   "description": "Algorithms in TypeScript",
-  "main": "index.js",
   "scripts": {
-    "tsx": "tsx"
+    "tsx": "tsx",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -23,9 +23,11 @@
   },
   "homepage": "https://github.com/tom-ash/algorithms-in-typescript#readme",
   "devDependencies": {
+    "@types/jest": "^29.5.14",
     "@types/node": "^22.10.1"
   },
   "dependencies": {
+    "jest": "^29.7.0",
     "tsx": "^4.19.2"
   }
 }
