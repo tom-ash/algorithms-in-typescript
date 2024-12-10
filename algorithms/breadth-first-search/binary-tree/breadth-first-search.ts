@@ -20,7 +20,9 @@ export const breadthFirstSearchBinaryTree = (
     // Dequeue the first node from the queue.
     const currentNode = queue.shift()!;
 
-    console.log(`Getting from queue and processing node: ${currentNode.value}.`);
+    console.log(
+      `Getting from queue and processing node: ${currentNode.value}.`,
+    );
 
     // Enqueue the left child node if one exits.
     if (currentNode.left) {
